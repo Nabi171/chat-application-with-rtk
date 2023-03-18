@@ -5,7 +5,7 @@ const initialState={
 };
 
 const messagesSlice=createSlice({
-    name:"auth",
+    name:"messages",
     initialState,
     reducers:{
         
