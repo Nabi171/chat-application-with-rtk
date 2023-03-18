@@ -1,6 +1,6 @@
 import { apiSlice } from "../api/apiSlice";
 
-export const conversationsApi=apiSlice.injectEndpoints({
+export const messagesApi=apiSlice.injectEndpoints({
     endpoints:(builder)=>{
         //endponts here
     },
