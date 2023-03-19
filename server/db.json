@@ -5,6 +5,12 @@
       "password": "$2a$10$OUfYPW5LazAB7p3n9VEDh.bRX5WitE2OcslTeCBwsECEn3TJtkOSq",
       "name": "Email",
       "id": 1
+    },
+    {
+      "email": "nabiultasbed@gmailcom",
+      "password": "$2a$10$7wd7ly.Diy6J7je3ZGDrr.F7OFkf3wICo/AHirCp1VJkNk.G.4Sei",
+      "name": "nabi",
+      "id": 2
     }
   ],
   "conversations": [
