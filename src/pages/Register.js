@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import logoImage from "../assets/images/lws-logo-light.svg";
 import { useRegisterMutation } from "../features/auth/authApi";
+import Error from "../components/ui/Error";
 
 export default function Register() {
     const [name,setName]=useState('');
@@ -44,8 +45,7 @@ export default function Register() {
                             Create your account
                         </h2>
                     </div>
-                    <form onSubmit={handl
-                    } className="mt-8 space-y-6" action="#" method="POST">
+                    <form onSubmit={handleSubmit} className="mt-8 space-y-6" action="#" method="POST">
                         <input type="hidden" name="remember" value="true" />
                         <div className="rounded-md shadow-sm -space-y-px">
                             <div>
@@ -153,6 +153,7 @@ export default function Register() {
                                 Sign up
                             </button>
                         </div>
+                        {error !== "" && <Error message={error}></Error>}
                     </form>
                 </div>
             </div>
