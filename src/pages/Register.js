@@ -15,6 +15,7 @@ export default function Register() {
 
     const handleSubmit=(e)=>{
         e.preventDefault();
+        setError("");
         if(confirmPassword!==password){
            setError("password don't match");
         }
@@ -23,7 +24,7 @@ export default function Register() {
                 name,
                 email,
                 password
-            })
+            });
         }
 
     }
