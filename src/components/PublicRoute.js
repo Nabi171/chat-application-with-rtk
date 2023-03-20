@@ -1,5 +1,3 @@
-s (6 sloc)  237 Bytes
-
 import { Navigate } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 
