@@ -11,6 +11,12 @@
       "password": "$2a$10$7wd7ly.Diy6J7je3ZGDrr.F7OFkf3wICo/AHirCp1VJkNk.G.4Sei",
       "name": "nabi",
       "id": 2
+    },
+    {
+      "email": "nabiutasbed@gmailcom",
+      "password": "$2a$10$CoO2aGjgUvrDrsrDDIOs8ubajr1WeHcWyUFyMZh.MNESxfIS1YY.K",
+      "name": "nabi",
+      "id": 3
     }
   ],
   "conversations": [
